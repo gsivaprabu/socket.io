@@ -1,0 +1,21 @@
+# Socket.io Concepts - 03 Socket.io Basics - 03 Built with Web Sockets
+
+- Socket.io built with  Engine.io
+- Engine.io uses Web Sockets
+- Which is an abstraction on top of the  WebSockets Technology
+- WebSocket means direct two way connections between  client and server
+- Initiated with Handshake
+- Developed for below reasons
+	- Wrapper (Simplified API)
+	- Eliminate some of the connection problems
+	- Accept and maintain
+	- Old browsers not support web socket, That time uses AJAX long polling fallback.
+		- Old Browsers
+		- Long Polling
+		- Heartbeats, Disconnects
+	- Scaling
+		- Sockets join using single TCP Connection
+		- http means multiple and request also, this one single connection get all, So avoid latency and performance.
+		- Excellent cross browser and  device support.
+		- Same speed for all Platforms,Browsers and devices
+		- Connection are initiated and maintained by browser itself.
